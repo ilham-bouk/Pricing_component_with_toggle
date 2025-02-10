@@ -171,6 +171,7 @@ section article.pro button:hover {
   bottom: 10px;
   right: 10px;
   opacity: 0.5;
+  z-index: 6;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
