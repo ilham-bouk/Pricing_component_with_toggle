@@ -1,0 +1,190 @@
+:root {
+  --Linear-Gradient: hsl(236, 72%, 79%), hsl(237, 63%, 64%);
+  --Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+  --Light-Grayish-Blue: hsl(234, 14%, 74%);
+  --Grayish-Blue: hsl(233, 13%, 49%);
+  --Dark-Grayish-Blue: hsl(232, 13%, 33%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+main {
+  background-color: var(--Very-Light-Grayish-Blue);
+  position: relative;
+  height: 100vh;
+  padding: 60px 0;
+}
+main::before, main::after {
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main::before {
+  background-image: url(./images/bg-top.svg);
+  width: 300px;
+  height: 600px;
+  top: 0;
+  right: 0;
+}
+main::after {
+  background-image: url(./images/bg-bottom.svg);
+  width: 350px;
+  height: 270px;
+  bottom: 0;
+  left: 0;
+}
+
+header {
+  margin: auto 40px;
+  text-align: center;
+  z-index: 4;
+  position: relative;
+}
+header h1 {
+  color: hsl(236deg 38.71% 62.98%);
+  font-size: 30px;
+}
+header .toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: var(--Light-Grayish-Blue);
+  padding: 40px 0 60px;
+}
+header .toggle-switch {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+  width: 60px;
+  height: 30px;
+  border-radius: 25px;
+  background-image: linear-gradient(45deg, var(--Linear-Gradient));
+  transition: .3s;
+}
+header .toggle-switch:hover {
+  opacity: .6;
+}
+header .toggle-switch span {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: var(--Very-Light-Grayish-Blue);
+}
+header .toggle-switch.mon span {
+  margin-left: auto;
+}
+
+section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  position: relative;
+  margin: 0 20px;
+}
+section article {
+  width: 20rem;
+  color: var(--Dark-Grayish-Blue);
+  padding: 25px;
+  border-radius: 8px;
+  background-color: white;
+  height: fit-content;
+  box-shadow: 4px 5px 10px #e5e5e5e0;
+}
+section article.pro {
+  color: white;
+  padding: 40px 20px;
+  background-image: linear-gradient(150deg, var(--Linear-Gradient));
+}
+section article h2 span {
+  font-size: 60px;
+  margin: 25px 0;
+}
+section article h2 span.ane {
+  display: block;
+}
+section article h2 span.mon {
+  display: none;
+}
+section.month article h2 span.ane {
+  display: none;
+}
+section.month article h2 span.mon {
+  display: block;
+}
+section article ul {
+  margin: 20px 0;
+}
+section article ul li {
+  list-style: none;
+  border-top: 1px solid hsl(236deg 72% 79% / 27%);
+  width: 100%;
+  padding: 15px;
+}
+section article ul li:last-of-type {
+  border-bottom: 1px solid hsl(236deg 72% 79% / 27%);
+}
+section article button {
+  width: 100%;
+  background-image: linear-gradient(45deg, var(--Linear-Gradient));
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 2px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: .3s;
+}
+section article:not(.pro) button:hover {
+  background-image: none;
+  background-color: transparent;
+  border: 2px solid hsl(237, 63%, 64%);
+  color: hsl(237, 63%, 64%);
+}
+section article.pro button {
+  background-color: white;
+  color: var(--Grayish-Blue);
+  background-image: none;
+}
+section article.pro button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.5;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 870px) {
+  main {
+    height: auto;
+  }
+  section {
+    flex-direction: column;
+    gap: 30px;
+  }
+  section article {
+    padding: 35px;
+  }
+}
