@@ -30,7 +30,7 @@ I do not have access to the Figma sketch so the design is not pixel perfect.
 
 ### Screenshot
 
-![](./design/Screenshot.png)
+![](./design/screenshot.png)
 
 
 ### Links
