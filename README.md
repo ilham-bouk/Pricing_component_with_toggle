@@ -35,7 +35,7 @@ I do not have access to the Figma sketch so the design is not pixel perfect.
 
 ### Links
 
-- Solution URL: [Solution URL]()
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-pricing-component-with-toggle-wkQWXMrkbb)
 - Live Site URL: [Live site URL](https://ilham-bouk.github.io/Pricing_component_with_toggle/)
 
 ## My process
@@ -63,6 +63,6 @@ How to minimize my css code
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on [my solution](). It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on [my solution](https://www.frontendmentor.io/solutions/responsive-pricing-component-with-toggle-wkQWXMrkbb). It definitely helps to find new ways to code and find easier solutions!
 
 **Happy coding!** ☺️🚀
