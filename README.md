@@ -12,7 +12,6 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -37,7 +36,7 @@ I do not have access to the Figma sketch so the design is not pixel perfect.
 ### Links
 
 - Solution URL: [Solution URL]()
-- Live Site URL: [Live site URL]()
+- Live Site URL: [Live site URL](https://ilham-bouk.github.io/Pricing_component_with_toggle/)
 
 ## My process
 
@@ -47,22 +46,15 @@ I do not have access to the Figma sketch so the design is not pixel perfect.
 - CSS custom properties
 - JavaScript
 - Flexbox
-- CSS Grid
 - Desktop-first workflow
-
-You will find all the required assets in the `/design` folder. The assets are already optimized.<br>
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
 ## What I learned 
 
+Another quick project to practice on CSS. Nothing new that I learned however decreased the timing to do the projects in general. Used to take much longer 
 
 ### Continued development
 
-
-
-### Useful resources
-
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/)
+How to minimize my css code
 
 ## Author
 
