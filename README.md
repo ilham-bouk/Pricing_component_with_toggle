@@ -35,8 +35,8 @@ I do not have access to the Figma sketch so the design is not pixel perfect.
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-pricing-component-with-toggle-wkQWXMrkbb)
-- Live Site URL: [Live site URL](https://ilham-bouk.github.io/Pricing_component_with_toggle/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-pricing-component-with-toggle-wkQWXMrkbb)
+- Live Site URL: [Live site](https://ilham-bouk.github.io/Pricing_component_with_toggle/)
 
 ## My process
 
