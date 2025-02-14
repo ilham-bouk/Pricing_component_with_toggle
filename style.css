@@ -165,7 +165,7 @@ section article.pro button:hover {
   color: white;
 }
 
-.attribution {
+.footer {
   font-size: 11px;
   position: absolute;
   bottom: 10px;
@@ -173,7 +173,7 @@ section article.pro button:hover {
   opacity: 0.5;
   z-index: 6;
 }
-.attribution a {
+.footer a {
   color: hsl(228, 45%, 44%);
 }
 
